@@ -4,7 +4,7 @@
   "description": "Users service",
   "scripts": {
     "test": "mocha",
-    "start": "node ./server/app.js"
+    "start": "node ./server/index.js"
   },
   "directories": {
     "test": "./test"
