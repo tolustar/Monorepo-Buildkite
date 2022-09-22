@@ -1,0 +1,4 @@
+steps:
+  - commands:
+      - "yarn install"
+      - "yarn workspace user-service run test"

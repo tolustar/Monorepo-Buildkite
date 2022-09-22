@@ -1,0 +1,4 @@
+steps:
+  - label: "Deploying user service"
+    command:
+      - "echo deploying"

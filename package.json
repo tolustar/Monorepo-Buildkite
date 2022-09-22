@@ -1,0 +1,8 @@
+{
+  "name": "monorepo_buildkite",
+  "packageManager": "yarn@3.2.3",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}

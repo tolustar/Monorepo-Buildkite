@@ -1,0 +1,4 @@
+steps:
+  - label: "Deploying product service"
+    command:
+      - "echo deploying"
