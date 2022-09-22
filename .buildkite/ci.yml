@@ -1,0 +1,13 @@
+steps:
+  - label: "Triggering pipeline"
+    plugins:
+      chronotc/monorepo-diff:
+        diff: "git diff --name-only HEAD~1"
+        wait: false
+        watch:
+          - path: "packages/user-service"
+            config:
+              trigger: "user-service-ci"
+          - path: "packages/product-service"
+            config:
+              trigger: "product-service-ci"
